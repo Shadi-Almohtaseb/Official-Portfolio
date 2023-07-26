@@ -413,10 +413,13 @@ a {
 .show-details-btn {
   font-size: 1.2rem;
   color: #ffffffd1;
+  background-color: rgba(172, 172, 172, 0.163);
+  border-radius: 100%;
   transition: 0.3s ease;
 }
 .show-details-btn:hover {
   color: var(--white-color);
+  transform: scale(1.08);
 }
 
 .none {
