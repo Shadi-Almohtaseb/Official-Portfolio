@@ -3,6 +3,7 @@ const imageCards = document.querySelectorAll(".boxIMG");
 const navbar = document.getElementById("navbar");
 const checkbox = document.getElementById("checkbox");
 const header = document.querySelector(".header");
+const navLinks = document.querySelectorAll(".nav-link");
 // Function to remove 'maximize' class from all cards
 function removeAllMaximize() {
   cards.forEach((card, index) => {
@@ -14,6 +15,14 @@ function removeAllMaximize() {
     if (cardIcons) cardIcons.classList.remove("flex");
   });
 }
+// Attach click event listener to each navigation item
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    navbar.classList.toggle("clicked");
+    navbar.classList.toggle("unClicked");
+    checkbox.checked = false;
+  });
+});
 // handle clicks outside cards
 document.addEventListener("click", (event) => {
   const clickedElement = event.target;
@@ -25,10 +34,9 @@ document.addEventListener("click", (event) => {
 cards.forEach((card, index) => {
   card.addEventListener("click", (event) => {
     event.stopPropagation();
-    if (card.classList.contains("maximize")) {
-      removeAllMaximize();
-    } else {
-      removeAllMaximize();
+    const isMaximized = card.classList.contains("maximize");
+    removeAllMaximize();
+    if (!isMaximized) {
       card.classList.add("maximize");
       imageCards[index].classList.add("maximize");
       const showDetailsBtn = card.querySelector(".show-details-btn");
@@ -47,7 +55,6 @@ checkbox.addEventListener("click", () => {
 });
 // activate the licks when scroll
 document.addEventListener("DOMContentLoaded", function () {
-  const navLinks = document.querySelectorAll(".nav-link");
   const navbar = document.getElementById("navbar");
   const navBarHeight = navbar.offsetHeight;
   const offset = navBarHeight + 10;
