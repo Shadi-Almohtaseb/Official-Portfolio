@@ -365,7 +365,6 @@ a {
 }
 
 .maximize {
-  width: 650px;
   height: 680px;
   padding-top: 1rem;
 }
@@ -380,6 +379,7 @@ a {
   border-radius: 12px;
   object-fit: contain;
 }
+
 .card-content {
   height: 100%;
   width: 100%;
