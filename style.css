@@ -43,7 +43,7 @@ a {
   position: sticky;
   top: 0;
   height: 5rem;
-  background-color: #161122eb;
+  background-color: #151120da;
 }
 
 .menu {
@@ -824,6 +824,9 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   .main-text {
     font-size: 5rem;
   }
+  .title {
+    font-size: 7rem;
+  }
   .logo-image1 {
     width: 11.5rem;
   }
@@ -906,6 +909,9 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     font-size: 3.9rem;
   }
 
+  .title {
+    font-size: 6rem;
+  }
   .second-text {
     font-size: 1.3rem;
   }
@@ -934,7 +940,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   }
 
   .logo {
-    margin-left: -1rem;
+    margin-right: 2rem;
   }
 
   .navbar {
@@ -986,5 +992,230 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   .text-area {
     width: 31rem;
     max-width: 31rem;
+  }
+  .blur2 {
+    position: relative;
+    width: 95%;
+    height: 30vh;
+    top: 5rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .second-text {
+    margin-top: 4rem;
+  }
+
+  .main-text {
+    font-size: 3rem;
+    padding: 1rem 0.5rem 0 0.5rem;
+    margin-top: 12rem;
+  }
+
+  .text-area {
+    font-size: 1.1rem;
+  }
+
+  .second-text {
+    font-size: 1rem;
+    margin-top: 5rem;
+  }
+
+  .third-text {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 5rem;
+  }
+
+  .contact-content :nth-child(1) {
+    font-size: 1.3rem;
+    padding-right: 0.5rem;
+  }
+
+  .card2 {
+    width: 400px;
+    height: 215px;
+    padding-top: 2.3rem;
+    margin: 0.9rem 1rem;
+  }
+
+  .maximize {
+    width: 400px;
+    height: 610px;
+    padding-top: 0;
+  }
+
+  .boxIMG {
+    padding: 0 0.7rem;
+    border-radius: 12px;
+  }
+
+  .boxIMG img {
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .section {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .form-control {
+    margin-left: -2rem;
+  }
+  .navbar {
+    width: 95%;
+  }
+}
+
+@media (max-width: 530px) {
+  .logo {
+    width: 6rem;
+  }
+
+  .my-name {
+    color: var(--white-color);
+    margin: 1rem 0;
+    font-size: 1.7rem;
+  }
+
+  .profile-image {
+    max-width: 10rem;
+    border-radius: 100%;
+    box-shadow: var(--shadow);
+  }
+
+  .main-text {
+    font-size: 2.5rem;
+    padding: 1rem 0.5rem 0 0.5rem;
+  }
+
+  .title {
+    font-size: 4.5rem;
+  }
+
+  .card-title :nth-child(1) {
+    font-size: 1.3rem;
+  }
+  .card-title :nth-child(2) {
+    font-size: 1.3rem;
+  }
+
+  .menu {
+    font-size: 1.5rem;
+  }
+
+  .hamburger-lines .line {
+    height: 3px;
+  }
+
+  .form-control {
+    margin-left: -3rem;
+  }
+
+  .contact-content {
+    margin-left: -2rem;
+    padding: 0 1rem;
+  }
+
+  .wave-group .input {
+    width: 20rem;
+  }
+  .text-area {
+    width: 20rem;
+  }
+
+  .wave-group .label {
+    font-size: 1rem;
+  }
+
+  .message-label {
+    font-size: 1.1rem;
+  }
+
+  .logo-image2 {
+    margin-right: 3rem;
+  }
+  .logo-image3 {
+    margin-left: 0rem;
+  }
+  .logo-image4 {
+    margin-left: 0rem;
+  }
+  .contact-info > * {
+    font-size: 1.3rem;
+    gap: 0.7rem;
+  }
+  .copy-right-container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .Logos {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-text {
+    font-size: 2.3rem;
+    padding: 1rem 0.5rem 0 0.5rem;
+  }
+
+  .title {
+    font-size: 4.5rem;
+  }
+
+  .header {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .contact-info > * {
+    font-size: 1rem;
+    color: var(--light-white);
+  }
+
+  .card2 {
+    width: 400px;
+    height: 215px;
+    padding-top: 2.3rem;
+    margin: 2.8rem 0.4rem;
+  }
+
+  .maximize {
+    width: 340px;
+    height: 790px;
+    padding-top: 0;
+  }
+
+  .boxIMG {
+    padding: 0 0.7rem;
+    border-radius: 12px;
+    margin-top: -4.7rem;
+  }
+
+  .boxIMG img {
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .card-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .wave-group .input {
+    width: 19rem;
+  }
+  .text-area {
+    width: 19rem;
+  }
+  .form-control {
+    margin-left: -3rem;
   }
 }
