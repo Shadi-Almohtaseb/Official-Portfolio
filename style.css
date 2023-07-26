@@ -40,7 +40,8 @@ a {
   padding: 0rem 2rem 0rem 2rem;
   z-index: 9999;
   transition: 0.35s ease;
-  position: relative;
+  position: sticky;
+  top: 0;
   background-color: #161122eb;
 }
 
