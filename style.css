@@ -42,6 +42,7 @@ a {
   transition: 0.35s ease;
   position: sticky;
   top: 0;
+  height: 5rem;
   background-color: #161122eb;
 }
 
@@ -57,9 +58,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -2rem;
   gap: 1.7rem;
   color: var(--light-white);
+  margin-left: 2.5rem;
 }
 
 .logo {
@@ -70,7 +71,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -2.3rem;
 }
 
 .nav-list {
