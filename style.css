@@ -54,6 +54,13 @@ a {
   cursor: pointer;
 }
 
+.logo-menu {
+  position: absolute;
+  top: 17px;
+  left: 50px;
+  display: none;
+}
+
 .social-media {
   display: flex;
   align-items: center;
@@ -913,6 +920,9 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
 @media (max-width: 850px) {
   .navbar2 {
+    display: flex;
+  }
+  .logo-menu {
     display: flex;
   }
   .my-name {

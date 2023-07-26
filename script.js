@@ -55,7 +55,6 @@ checkbox.addEventListener("click", () => {
 });
 // activate the licks when scroll
 document.addEventListener("DOMContentLoaded", function () {
-  const navbar = document.getElementById("navbar");
   const navBarHeight = navbar.offsetHeight;
   const offset = navBarHeight + 10;
   window.addEventListener("scroll", function () {
