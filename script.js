@@ -3,7 +3,7 @@ const imageCards = document.querySelectorAll(".boxIMG");
 const navbar = document.getElementById("navbar");
 const checkbox = document.getElementById("checkbox");
 const header = document.querySelector(".header");
-// toggle the card when click out side
+// Function to remove 'maximize' class from all cards
 function removeAllMaximize() {
   cards.forEach((card, index) => {
     card.classList.remove("maximize");
@@ -14,7 +14,14 @@ function removeAllMaximize() {
     if (cardIcons) cardIcons.classList.remove("flex");
   });
 }
-// expand the card when click
+// handle clicks outside cards
+document.addEventListener("click", (event) => {
+  const clickedElement = event.target;
+  if (!clickedElement.closest(".card2") && !clickedElement.closest(".boxIMG")) {
+    removeAllMaximize();
+  }
+});
+// Expand the card when clicked
 cards.forEach((card, index) => {
   card.addEventListener("click", (event) => {
     event.stopPropagation();
