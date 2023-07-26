@@ -1049,6 +1049,29 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     font-size: 5rem;
   }
 
+  .hamburger-lines {
+    height: 20px;
+  }
+
+  input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(47deg);
+  }
+
+  input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+
+  input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-47deg);
+  }
+
+  .hamburger-lines .line {
+    height: 0rem;
+    color: var(--white-color);
+    width: 25px;
+    padding: 0.8px;
+  }
+
   .contact-content :nth-child(1) {
     font-size: 1.3rem;
     padding-right: 0.5rem;
@@ -1116,13 +1139,6 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
   .menu {
     font-size: 1.5rem;
-  }
-
-  .hamburger-lines .line {
-    height: 0rem;
-    color: var(--white-color);
-    width: 35px;
-    padding: 0.8px;
   }
 
   .logo {
@@ -1221,7 +1237,6 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
   .card-title {
     display: flex;
-    flex-direction: column;
     gap: 0.8rem;
   }
   .wave-group .input {
