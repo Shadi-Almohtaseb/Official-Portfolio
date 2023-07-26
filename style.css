@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white-color: #fff;
+  --light-white: #eaeaeac4;
+  --blue-color: #7133f8;
+  --shadow: var(#818183de) 0px 7px 30px 0px;
+  --text-shadow-white: 2px 8px 12px #fff;
+  --custom-font: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-color: #100f1d;
+  font-family: var(--custom-font);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: var(--white-color);
+  text-decoration: none;
+}
