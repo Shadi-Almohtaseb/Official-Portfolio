@@ -472,6 +472,23 @@ a {
   font-size: 1rem;
 }
 
+/* Customize the card*/
+.wiki {
+  max-height: 600px;
+}
+.twitter {
+  max-height: 640px;
+}
+.network {
+  max-height: 570px;
+}
+.youtube {
+  max-height: 580px;
+}
+.whatsApp {
+  max-height: 580px;
+}
+
 /* Contact */
 
 .contact {
@@ -1141,6 +1158,11 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     font-size: 1.5rem;
   }
 
+  .card2 {
+    margin: 2rem 0.2rem;
+    height: 210px;
+  }
+
   .logo {
     margin-left: 1rem;
     width: 7rem;
@@ -1228,11 +1250,13 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   }
 
   .card2 {
-    margin: 2.8rem 0.2rem;
+    margin: 2rem 0.2rem;
+    height: 180px;
   }
 
   .maximize {
     padding-top: 0;
+    height: 790px;
   }
 
   .card-title {
@@ -1247,5 +1271,21 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   }
   .form-control {
     margin-left: -3rem;
+  }
+  /* Customize the card*/
+  .wiki {
+    max-height: 680px;
+  }
+  .twitter {
+    max-height: 700px;
+  }
+  .network {
+    max-height: 640px;
+  }
+  .youtube {
+    max-height: 580px;
+  }
+  .whatsApp {
+    max-height: 600px;
   }
 }
