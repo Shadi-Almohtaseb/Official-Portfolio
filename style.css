@@ -422,6 +422,7 @@ a {
   color: #ffffffd1;
   background-color: rgba(172, 172, 172, 0.163);
   border-radius: 100%;
+  padding: 0 2px;
   transition: 0.3s ease;
 }
 .show-details-btn:hover {
@@ -487,7 +488,7 @@ a {
   max-height: 640px;
 }
 .network {
-  max-height: 570px;
+  max-height: 600px;
 }
 .youtube {
   max-height: 580px;
@@ -934,6 +935,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   }
   .projects-container {
     margin-top: 5rem;
+    gap: 5rem;
   }
   .contact {
     margin-top: 5rem;
@@ -1185,8 +1187,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   }
 
   .card2 {
-    margin: 2rem 0.2rem;
-    height: 210px;
+    margin: 0.5rem 0.2rem;
   }
 
   .logo {
@@ -1277,12 +1278,16 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
   .card2 {
     margin: 2rem 0.2rem;
-    height: 180px;
+    height: 140px;
   }
 
   .maximize {
     padding-top: 0;
     height: 790px;
+  }
+
+  .boxIMG {
+    margin-top: -3rem;
   }
 
   .card-title {
