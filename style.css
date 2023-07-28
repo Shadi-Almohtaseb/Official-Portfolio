@@ -4,6 +4,26 @@
   box-sizing: border-box;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #151120da;
+}
+
+/* Thumb */
+::-webkit-scrollbar-thumb {
+  background: #3601bd;
+}
+
+/* Thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1a00af;
+}
+
 :root {
   --white-color: #fff;
   --light-white: #eaeaeac4;
@@ -393,7 +413,7 @@ a {
   width: 100%;
   display: flex;
   justify-content: center;
-  overflow: hidden;
+  overflow: scroll;
   margin: 3rem 0;
 }
 
@@ -1305,10 +1325,10 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   }
   /* Customize the card*/
   .wiki {
-    max-height: 680px;
+    max-height: 590px;
   }
   .twitter {
-    max-height: 700px;
+    max-height: 720px;
   }
   .network {
     max-height: 640px;
