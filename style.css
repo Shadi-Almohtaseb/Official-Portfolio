@@ -413,8 +413,20 @@ a {
   width: 100%;
   display: flex;
   justify-content: center;
-  overflow: scroll;
+  overflow-y: scroll;
   margin: 3rem 0;
+}
+
+/* Hide the scrollbar */
+.card-content::-webkit-scrollbar {
+  width: 7px;
+  background: rgb(74, 14, 240);
+}
+.card-content::-webkit-scrollbar-track {
+  background: rgb(74, 14, 240);
+}
+.card-content::-webkit-scrollbar-thumb {
+  background: rgb(74, 14, 240);
 }
 
 .card-details {
