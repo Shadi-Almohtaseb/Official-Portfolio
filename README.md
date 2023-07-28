@@ -16,8 +16,8 @@ every screen reflects my dedication to creating an engaging user experience from
 
 ## App Preview
 
-![](./Images/preview/p1.png)
-![](./Images/preview/p2.png)
-![](./Images/preview/p3.png)
-![](./Images/preview/p4.png)
-![](./Images/preview/p5.png)
+![](./images/preview/p1.png)
+![](./images/preview/p2.png)
+![](./images/preview/p3.png)
+![](./images/preview/p4.png)
+![](./images/preview/p5.png)
