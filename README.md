@@ -9,6 +9,11 @@ every screen reflects my dedication to creating an engaging user experience from
 - Responsive `CSS` design.
 - Important `JS` concepts.
 
+## Tools
+
+1. Box Icons
+2. Google Fonts
+
 ## Demo
 
 [See The Demo From Here!

@@ -419,7 +419,7 @@ a {
 
 /* Hide the scrollbar */
 .card-content::-webkit-scrollbar {
-  width: 7px;
+  width: 6px;
   background: rgb(74, 14, 240);
 }
 .card-content::-webkit-scrollbar-track {
