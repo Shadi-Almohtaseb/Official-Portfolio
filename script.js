@@ -62,8 +62,12 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", function () {
     const scrollDistance = window.scrollY;
     const sections = document.querySelectorAll("section");
-    if (scrollDistance < 700) homeLink.classList.add("active");
-    else homeLink.classList.remove("active");
+    if (scrollDistance < 700) {
+      navLinks.forEach(function (link) {
+        link.classList.remove("active");
+      });
+      homeLink.classList.add("active");
+    } else homeLink.classList.remove("active");
     sections.forEach(function (section) {
       const sectionTop =
         section.getBoundingClientRect().top + window.pageYOffset;
@@ -81,7 +85,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         correspondingLink.classList.add("active");
       }
-      if (scrollDistance < 700) link.classList.remove("active");
     });
   });
 });
